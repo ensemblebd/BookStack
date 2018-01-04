@@ -262,9 +262,9 @@ module.exports = {
     extended_valid_elements: 'pre[*]',
     automatic_uploads: false,
     valid_children: "-div[p|h1|h2|h3|h4|h5|h6|blockquote],+div[pre]",
-    plugins: "image table textcolor paste link autolink fullscreen imagetools code customhr autosave lists codeeditor",
+    plugins: "image table textcolor paste link autolink fullscreen imagetools code customhr autosave lists codeeditor media codesample visualblocks",
     imagetools_toolbar: 'imageoptions',
-    toolbar: "undo redo | styleselect | bold italic underline strikethrough superscript subscript | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table image-insert link hr | removeformat code fullscreen",
+    toolbar: "undo redo | styleselect visualblocks | bold italic underline strikethrough superscript subscript | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | table image-insert link media hr | removeformat codesample code fullscreen",
     content_style: "body {padding-left: 15px !important; padding-right: 15px !important; margin:0!important; margin-left:auto!important;margin-right:auto!important;}",
     style_formats: [
         {title: "Header Large", format: "h2"},
@@ -281,6 +281,20 @@ module.exports = {
             {title: "Warning", format: 'calloutwarning'},
             {title: "Danger", format: 'calloutdanger'}
         ]},
+    ],
+	codesample_dialog_width: '400',
+	codesample_dialog_height: '400',
+	codesample_languages: [
+        {text: 'HTML/XML', value: 'markup'},
+        {text: 'JavaScript', value: 'javascript'},
+        {text: 'CSS', value: 'css'},
+        {text: 'PHP', value: 'php'},
+        {text: 'Ruby', value: 'ruby'},
+        {text: 'Python', value: 'python'},
+        {text: 'Java', value: 'java'},
+        {text: 'C', value: 'c'},
+        {text: 'C#', value: 'csharp'},
+        {text: 'C++', value: 'cpp'}
     ],
     style_formats_merge: false,
     formats: {
