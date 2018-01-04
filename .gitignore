@@ -21,3 +21,11 @@ nbproject
 .buildpath
 .project
 .settings/
+
+*.bat
+
+public/\.user\.ini
+
+public/web\.config
+
+public/\.well-known/
