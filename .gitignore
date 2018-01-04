@@ -29,3 +29,11 @@ public/\.user\.ini
 public/web\.config
 
 public/\.well-known/
+
+public/css/export-styles\.css
+
+public/css/print-styles\.css
+
+public/css/styles\.css
+
+public/js/common\.js
