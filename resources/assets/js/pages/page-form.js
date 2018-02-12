@@ -340,7 +340,7 @@ window.tinymce.PluginManager.add('customhr', function (editor) {
 });
 
 // Load plugins
-let plugins = "image table textcolor paste link autolink fullscreen imagetools code customhr autosave lists codeeditor";
+let plugins = "image table textcolor paste link autolink fullscreen imagetools code customhr autosave lists codeeditor media codesample visualblocks"; 
 codePlugin();
 if (document.querySelector('[drawio-enabled]').getAttribute('drawio-enabled') === 'true') {
     drawIoPlugin();
