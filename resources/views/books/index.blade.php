@@ -40,7 +40,7 @@
 
 @section('body')
     @if($booksViewType === 'list')
-        <div class="container small" ng-non-bindable>
+        <div class="container " ng-non-bindable>
     @else
         <div class="container" ng-non-bindable>
     @endif
@@ -48,8 +48,8 @@
         @if(count($books) > 0)
             @if($booksViewType === 'list')
                 @foreach($books as $book)
-                    @include('books/list-item', ['book' => $book])
-                    <hr>
+                    @include('books/grid-item', ['book' => $book])
+                    
                 @endforeach
                 {!! $books->render() !!}
             @else 
