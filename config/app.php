@@ -7,7 +7,7 @@ return [
     'editor' => env('APP_EDITOR', 'html'),
 
     'views' => [
-        'books' => env('APP_VIEWS_BOOKS', 'list')
+        'books' => env('APP_VIEWS_BOOKS', 'grid')
     ],
 
     /*
